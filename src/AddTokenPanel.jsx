@@ -21,7 +21,7 @@ class AddTokenPanel extends Component {
   constructor (props) {
     const {
       tokenName = 'FARM',
-        tokenSymbol = 'MARK',
+        tokenSymbol = 'FARM',
         tokenDecimals = 18,
         tokenAddress = farmAddress,
         tokenImage = 'http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/tractor.png',
