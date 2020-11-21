@@ -14,17 +14,17 @@ import { Link } from 'react-router-dom'
 import logo from './coin.jpg';
 import queryString from 'querystringify'
 
-const metaMarkAddress = '0x617b3f8050a0bd94b6b1da02b4384ee5b4df13f4';
+const farmAddress = '0x617b3f8050a0bd94b6b1da02b4384ee5b4df13f4';
 
 class AddTokenPanel extends Component {
 
   constructor (props) {
     const {
-      tokenName = 'MetaMarks',
+      tokenName = 'FARM',
         tokenSymbol = 'MARK',
         tokenDecimals = 18,
-        tokenAddress = metaMarkAddress,
-        tokenImage = 'https://pbs.twimg.com/profile_images/802481220340908032/M_vde_oi_400x400.jpg',
+        tokenAddress = farmAddress,
+        tokenImage = 'http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/tractor.png',
         tokenNet = '1',
         message = '',
         errorMessage = '',
